@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Install any needed packages
+# Install any needed packages all
 RUN npm install
 
 # Make port 8000 available to the world outside this container
